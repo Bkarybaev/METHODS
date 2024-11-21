@@ -6,9 +6,9 @@ public class Main {
    static int size = 0;
 
     public static void main(String[] args) {
-        Person person1 = new Person(1L,"aibek", "baiel@gmail.com", LocalDate.of(2004, 12, 30), "+996700047017");
-        Person person2 = new Person(2L,"Baiel", "baiel@gmail.com", LocalDate.of(2004, 12, 30), "+996700047017");
-        Person person3 = new Person(3L,"kanchoro", "baiel@gmail.com", LocalDate.of(2004, 12, 30), "+996700047017");
+        Person person1 = new Person(1L,"aibek", "aibek@gmail.com", LocalDate.of(2005, 1, 12), "+996700047017");
+        Person person2 = new Person(2L,"Baiel", "baiel@gmail.com", LocalDate.of(2004, 12, 30), "+996706447516");
+        Person person3 = new Person(3L,"kanchoro", "kanchoro@gmail.com", LocalDate.of(2003, 10, 7), "+996700327311");
         createCustomer(person1);
         createCustomer(person2);
         createCustomer(person3);
